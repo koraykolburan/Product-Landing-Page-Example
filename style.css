@@ -1,0 +1,191 @@
+header {
+  position: fixed;
+  width:100%;
+  top:0;
+  left:0;
+  background-color: #d5f0ee;
+  color: white;
+  font-family: Monaco;
+  padding: 0;
+  text-align: left;
+  border: 1px solid;
+  border-bottom-right-radius:50%;
+}
+#header-img {
+  width: 165px;
+  height: 125px;
+  float: left;
+  padding-top: 0;
+  paddig-left: 0;
+  border: 1px solid;
+  border-radius: 35%;
+}
+
+nav ul{
+  float: right;
+  margin-right: 2em;
+  font-family: Lucida Console;
+  font-size:1.4rem;
+}
+nav li {
+  display: inline;
+  padding: 1em;
+  display: inline-block;
+  }
+
+li a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+a:hover {
+  color:#008b8b;
+  font-size:1.9rem;
+}
+
+
+body {
+  padding:9%;
+  margin:5%;
+  text-align:center;
+  font-family: Didot;
+  line-height:35px;
+  font-size:17px;
+  background-image: radial-gradient(
+      circle closest-side,
+      #f7ef97,
+      #99ccc9
+    );
+}
+
+.submit-button {
+  text-align:center;
+ }
+
+#submit {
+  width:25%;
+  height:50px;
+  border: 1px outset grey;
+  border-radius:7px;
+  font-size:1.5rem;
+  background-color:#b19cd9;
+  color:darkblack;
+}
+
+#submit:hover {
+  border: 5px outset lightblue;
+  font-weight:3px;
+  cursor:pointer;
+  font-size:1.7rem;
+}
+
+#email {
+  width:250px;
+  height:35px;
+  margin-bottom:8px;
+}
+
+h1 {
+  font-size:2.5rem;
+  font-family: Didot;
+}
+
+.flex-container {
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: space-between;
+}
+
+#min {
+       width: auto;
+       padding: auto;
+       margin: auto;
+       border: 3px solid gray;
+       border-radius: 20%;
+       font-size:2rem;       
+}
+
+#mid {
+       width: auto;
+       padding: auto;
+       margin: auto;
+       border: 3px solid gray;
+       border-radius: 20%;
+       font-size:2rem
+}
+
+#max {
+       width: auto;
+       padding: auto;
+       margin: auto;
+       border: 3px solid gray;
+       border-radius: 20%;
+       font-size:2rem;
+}
+
+#purchase {
+  border:2px outset gray;
+  border-radius:25%;
+  padding:10px;
+  margin:7px;
+  width:8rem;
+  font-size:1.5rem;
+}
+#purchase:hover {
+  font-size:1.8rem;
+   color:#008b8b;
+     cursor:pointer;
+}
+
+#contact {
+  padding:10px;
+  margin-top:30px;
+  border:0px solid;
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: baseline;
+  text-align:center;
+ }
+
+.submit2 {
+  font-size:2rem;
+  font-family:Monaco;
+  border:4px outset gray;
+  border-radius: 15%
+}
+.submit2:hover {
+  color:#008b8b;
+  font-size:2.1rem;
+  cursor:pointer;
+}
+
+@media (min-width:480px) and (max-width:768px) {
+  body {
+    background-color:blue;
+  }
+}
+
+@media (min-height:480px) and (max-height:1080px) {
+  body {
+    background-color:blue;
+  }
+}
+
+#shipping {
+  width:85px;
+  height:85px;
+}
+
+#premium {
+  padding-top:90px;
+  width:85px;
+  height:85px;
+}
+
+#quality {
+  width:85px;
+  height:85px;
+}
